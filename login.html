@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <style>
+        
+              
+            header {
+            background-color: #ffffff;
+            padding: 1rem;
+            }
+            
+            header h1 {
+            color: #fff;
+            font-size: 3rem;
+            text-align: center;
+            }
+            
+           
+            
+            nav {
+            background-color: #fff;
+            padding: 1rem;
+            }
+            
+            nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            }
+            
+            nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            }
+
+            footer {
+                text-align: center;
+            }
+            
+            main {
+            max-width: 836px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #e4b385;
+            border: 1px solid #ffffff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            
+            #register-form {
+              max-width: 800px;
+            margin-bottom: 2rem;
+            }
+            
+            #register-form h2 {
+              text-align: center;
+            margin-top: 0;
+            }
+            
+            #register-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            }
+            
+            #register-form input,
+            #register-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            }
+            
+            #register-form input[type="submit"] {
+            max-width: 800px;
+            background-color: #ddd;
+            color: #fff;
+            padding: 0.5rem;
+            border: none;
+            }
+                
+    </style>
+   </head>     
+   <body>
+      
+       <main>
+        <section id="register-form">
+        <h2>Login to Pottery ART</h2>
+        <form action="#">
+        <label for="email">Email:</label>
+        <input type="email" id="email"  placeholder="Enter Email" required autocomplete="on">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter Password" required autocomplete="on">
+        <label for="confirm-password">Conform Password:</label>
+        <input type="password" id="confirm-password" placeholder="Confirm Password" required autocomplete="on">
+        <input type="submit" value="Log In">
+        </form>
+      </section>
+        </main>
+        <footer>
+        <p>&copy; 2023 Pottery ART</p>
+        </footer>
+   </body>  
+</html> 
