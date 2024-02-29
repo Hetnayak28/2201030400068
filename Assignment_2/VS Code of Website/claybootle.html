@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pottery ART Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          * {
+            box-sizing: border-box;
+            }
+            
+            body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            }
+            .siteHeader {
+               
+                display: flex;
+              
+               
+                justify-content: space-between;
+              
+                padding: 10px;
+                background-color: #ffffff;
+              }
+              
+                .siteHeader__section {
+                 
+                  display: flex;
+              
+                 
+                  align-items: center;
+                }
+              
+                  .siteHeader__item {
+                    padding: 5px 15px;
+                    font-size: 12px;
+                  }
+              
+                  .siteHeader__item + .siteHeader__item {
+                    margin-left: 5px;
+                  }
+              
+                  .siteHeader__item.is-site-header-item-selected {
+                    color: #FFFFFF;
+                    background-color: #000000;
+                    border-radius: 4px;
+                    display: top left;
+                  }
+              
+                  .siteHeaderLogo {
+                    font-size: 20px;
+                    line-height: 0;
+                    color: white;
+                  }
+              
+                  .siteHeaderButton {
+                    cursor: pointer;
+                    color: #000000;
+                  }
+          
+          nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          nav ul li {
+            margin-right: 1rem;
+          }
+          
+          nav ul li:last-child {
+            margin-right: 0;
+          }
+          
+          nav a {
+            color: #fff;
+            text-decoration: none;
+          }
+          
+          main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 2rem;
+          }
+          
+          #product-list {
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            flex: 1;
+            padding: 1rem;
+          }
+          
+          #product-list h1 {
+            margin-top: 0;
+            align-items: baseline;
+            text-align: center;
+          }
+          
+          #product-list ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+          }
+          
+          #product-list li {
+            border-bottom: 1px solid #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+          }
+          
+          #product-list li:last-child {
+            border-bottom: none}
+    </style>
+  </head>
+  <body>
+    <form>
+        <div class="siteHeader">
+            <!-- This section gets pushed to the left side-->
+            <div class="siteHeader__section">
+              <div class="siteHeader__item siteHeaderLogo">
+                <div class="fa fa-inbox"></div>
+              </div>
+              <div><img src="frame project/mud port/logo-removebg-preview 1.svg" alt="">
+              </div>
+              <div class="siteHeader__item siteHeaderButton">home</div>
+              <div class="siteHeader__item siteHeaderButton">shop</div>
+              <div class="siteHeader__item siteHeaderButton">about</div>
+              <div class="siteHeader__item siteHeaderButton">Contact</div>
+            </div>
+            <!-- This section gets pushed to the right side-->
+            <div class="siteHeader__section">
+              <div><img src="c:\Users\integrated\OneDrive\Pictures\Untitled.png" alt=""></div>
+              <div><img src="2609282 1.png" alt=""></div>
+              <div><img src="4903482 1.png" alt=""></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+       </form>
+    <main>
+      <section id="product-list">
+        <h1>Clay Water Bottles</h1>
+        <ul>
+          <li>
+            <img src="frame project/mud bottle/images (1).jpeg">
+            <p>43.5in Height</p>
+            <h2>Clay Water Bottle 250ml</h2>
+            <p>Handmade Organic Clay</p>
+            <p>*500</p>
+          </li>
+          <li>
+            <img src="frame project/mud bottle/images (2).jpeg">
+            <p>100ml</p>
+            <h2>Clay Water Bottle 100ml</h2>
+            <p>Handmade Organic Clay</p>
+            <p>€250</p>
+          </li>
+          <li>
+            <img src="frame project/mud bottle/images (3).jpeg">
+            <p>200ml</p>
+            <h2>Clay Water Bottle 200ml</h2>
+            <p>Handmade Organic Clay</p>
+            <p>*350</p>
+          </li>
+          <li>
+            <img src="frame project/mud bottle/images (4).jpeg">
+            <p>Q 8</p>
+            <h2>Clay Water Bottle 150ml</h2>
+            <p>Handmade Organic Clay</p>
+            <p>€300</p>
+          </li>
+          
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
